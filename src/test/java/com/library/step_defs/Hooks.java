@@ -38,13 +38,13 @@ public class Hooks {
     @Before("@db")
     public void setUpDB(){
         System.out.println("Connecting to database...");
-      com.cydeo.utility.DB_Util.createConnection();
+      com.library.utility.DB_Util.createConnection();
     }
 
     @After("@db")
     public void tearDownDB(){
         System.out.println("close database connection...");
-        com.cydeo.utility.DB_Util.destroy();
+        com.library.utility.DB_Util.destroy();
     }
 
 
