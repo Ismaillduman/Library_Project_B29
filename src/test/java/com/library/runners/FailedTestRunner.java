@@ -1,4 +1,4 @@
-package com.library.runner;
+package com.library.runners;
 
 
 import io.cucumber.junit.Cucumber;
